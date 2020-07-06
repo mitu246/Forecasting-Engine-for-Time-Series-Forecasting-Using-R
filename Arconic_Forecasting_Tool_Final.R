@@ -444,7 +444,7 @@ final_forecast_copy=final_forecast_dat
 
 
 # Final Manipulations:
-dates=seq.Date(as.Date('2019-10-01'),length.out = 6,by='month')
+dates=seq.Date(as.Date('2018-10-01'),length.out = 6,by='month')
 
 colnames(final_forecast_dat)<- c('item_group','item_num',sapply(dates,as.character))
 
